@@ -5,9 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println("夜雨寄北")
-	fmt.Println("君问归期未有期，")
-	fmt.Println("巴山夜雨涨秋池，")
-	fmt.Println("何当共剪西窗烛，")
-	fmt.Println("却话巴山夜雨时。")
+	var hello string = "hello,golang"
+	fmt.Println(hello)
+	var age int = 35
+	fmt.Println(age)
+	var tall float64 = 1.77
+	fmt.Println(tall)
 }
