@@ -6,12 +6,13 @@ import (
 )
 
 func main() {
-	//var money interface{} =10
+	var money interface{} = 10
 	//var money interface{} =10.0
-	var money interface{} = "10"
-	switch money.(type) {
+	//var money interface{} = "10"
+	switch newMoney := money.(type) {
 	case int:
-		fmt.Println("money is int")
+		tmpMoney := newMoney + 3
+		fmt.Println("money is int", tmpMoney)
 	case int64:
 		fmt.Println("money is int64")
 	case float64:
