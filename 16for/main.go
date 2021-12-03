@@ -32,7 +32,7 @@ func main() {
 	fmt.Println("round 5")
 	m := 0
 	for {
-		fmt.Println("round 5,hello golang")
+		fmt.Println("round 5,hello golang", m)
 		m++
 		if m >= 10 {
 			break
@@ -40,6 +40,6 @@ func main() {
 		if m%2 == 0 {
 			continue
 		}
-		fmt.Println("round 5,练习跳过")
+		fmt.Println("round 5,练习跳过", m)
 	}
 }
