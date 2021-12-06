@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+
 	for {
 		var name string
 		fmt.Print("姓名：")
